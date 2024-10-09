@@ -7,7 +7,7 @@ const { test, registerUser, loginUser, getProfile } = require('../controllers/au
 router.use(
     cors({
         credentials: true,
-        origin: 'https://cssa-membership.onrender.com'
+        origin: 'https://cssa-member-frontend.onrender.com'
     })
 )
 
