@@ -7,7 +7,7 @@ const { test, registerUser, loginUser, getProfile } = require('../controllers/au
 router.use(
     cors({
         credentials: true,
-        origin: 'https://cssa-member-backend.vercel.app',
+        origin: 'https://cssa-member-frontend.vercel.app/',
         methods: ['POST', 'GET']
     })
 )
